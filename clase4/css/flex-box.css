@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 768px;
+    margin: auto;
+    /* border: 2px solid hsl(120, 80%, 80%); */
+    background-color: hsl(240, 17%, 5%);
+
+    font-family: "Roboto", sans-serif;
+    color: #62C9EE;
+    font-size: 24px;
+}
+
+#horizontal{
+    height: 400px;
+    background-color: hsl(240, 17%, 20%);
+
+    display: flex;  
+    /* Distribución en el eje X */
+    /* justify-content: start; /* preeterminado: a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+    /* Descendencia: 
+    los artículos hijos del elemento con el ID horizontal */
+    #horizontal article{
+        background-color: #ff0;
+        border: 1px solid #000;
+        width: 104px;
+        height: 56px;
+    }
+
+    #contact{
+        margin-top: 24px;
+        background-color: #fe3131;
+
+        display: flex;
+        justify-content: space-between;
+    }
+        #contact a{
+            color: #fff;
+            text-decoration: none; /* quitar subrayado */
+            font-size: 20px;
+        }
+            #contact a img{
+                width: 32px;
+                vertical-align: middle;
+            }

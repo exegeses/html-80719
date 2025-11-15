@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 768px;
+    margin: auto;
+    /* border: 2px solid hsl(120, 80%, 80%); */
+    background-color: hsl(240, 17%, 5%);
+
+    font-family: "Roboto", sans-serif;
+    color: #62C9EE;
+    font-size: 24px;
+}
+p{
+    background-color: hsl(240, 20%, 20%);
+}
+
+#primero{
+    background-color: hsl(240, 20%, 40%);
+    height: 400px;
+}
+
+article{
+    background-color: hsl(240, 20%, 20%);
+    height: 56px;
+    width: 216px;
+}
+#prod2{
+    height: 104px;
+    background-color: hsl(240, 20%, 12%);
+}

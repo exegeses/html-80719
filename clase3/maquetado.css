@@ -3,16 +3,19 @@ body{
 }
 header{
     width: 1200px;
+    margin: auto; /* centrar en eje X */
     height: 120px;
     background-color: #4D2E5B;
 }
 main{
     width: 1200px;
+    margin: auto;  /* centrar en eje X */
     height: 680px;
     background-color: #24163A;
 }
 footer{
     width: 1200px;
+    margin: auto;  /* centrar en eje X */
     height: 216px;
     background-color: #4D2E5B;
 }
