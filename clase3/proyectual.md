@@ -6,6 +6,7 @@
 4. Boceto (en papel)
 5. Prototipado (mockup)
 6. Maquetado
+7. Publicación
 
 
 ## Software de prototipado: 

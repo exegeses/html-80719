@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: auto; /* centrar contenedor en horizontal */
+    background-color: hsl(240, 17%, 5%);
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+header{
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header nav a{
+        padding: 8px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    header nav a:hover{
+        color: hsl(196, 80%, 66%);
+    }
+
+
+/* main */
+main{
+    min-height: 800px;
+}
+/* hero section */
+#hero{
+    margin-top: 40px;
+    height: 640px;
+    background-image: url(../imgs/glasses-hero.jpg);
+}
+    #hero h1{
+        margin-left: 80px;
+        padding-top: 271px;
+        font-weight: 300;
+        text-shadow: 0px 0px 16px hsl(196, 80%, 66%);
+    }
+        #hero h1 span{
+            color: hsl(196, 80%, 66%);
+        }
+
+    #hero p{
+        width: 544px;
+        margin-top: 16px;
+        margin-left: 80px;
+        text-shadow: 0px 0px 16px hsl(196, 80%, 66%);
+    }
+
+
+/* footer */
+footer{
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer div a img{
+        width: 32px;
+        margin: 8px;
+    }
